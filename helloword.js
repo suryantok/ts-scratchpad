@@ -16,4 +16,3 @@ var Startup = /** @class */ (function () {
     return Startup;
 }());
 Startup.main();
-//# sourceMappingURL=helloword.js.map
