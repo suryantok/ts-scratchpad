@@ -1,5 +1,5 @@
-#!/usr/bin/env node;
 import { Factorial } from './factorial';
+import process = require('process');
 
 const argc = process.argv.splice(2);
 

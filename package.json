@@ -10,10 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^10.12.0",
+    "build": "^0.1.4",
     "tsc": "^1.20150623.0"
   },
   "bin": {
     "factorial": "./bin/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "typescript": "^2.9.2"
   }
 }

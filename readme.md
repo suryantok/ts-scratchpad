@@ -5,10 +5,15 @@
 4. Debug
 
 ### Compile Type script
-* tsc helloworld.ts
-* node helloworld.js
+* npm run build
+* node main.js 2
 
-### crete a command line
+### Debug
+* go to main.ts
+* put breakpoints
+* F5
+
+### crete a command line TODO
 1. she bank
 2. add npm bin
 3. to test

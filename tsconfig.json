@@ -1,13 +1,19 @@
 {
     "include": [
-        "*"
+        "./src/*"
     ],
     "exclude": [
-        "node_modules",
-        "**/*.spec.ts"
+        "node_modules"        
     ],
     "compilerOptions": {
         "module": "commonjs",
-        "target": "es6"
-    }
+        "target": "es2017",
+        "sourceMap": true,
+        "outDir": "build",
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "emitDecoratorMetadata": true
+      }
 }
